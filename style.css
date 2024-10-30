@@ -1,9 +1,44 @@
 :root {
-    width: 1120px;
-    height: 3054px;
+  font-family: "Open Sans", sans-serif;
 }
+
+
+body{
+    background-color: #29292E;
+}
+
+
+#page {
+  box-sizing: border-box;
+  width: 1280px;
+  padding: 65px;
+  background-color: #FFFFFF;
+  margin: 48px auto;
+}
+
 
 img {
     border-radius: 28px;
     width: 100%;
+}
+
+h1 {
+    background-size: 36px;
+    font-weight: bold;
+}
+
+h2 {
+    background-size: 32px;
+    font-weight: bold;
+}
+ 
+h3 {
+    background-size: 28px;
+    font-weight: bold;
+
+}
+
+p + p {
+    background-size: 16px;
+    font-weight: regular;
 }
