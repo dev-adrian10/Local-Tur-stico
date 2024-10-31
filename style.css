@@ -1,5 +1,10 @@
+
+
+
+
 :root {
   font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
 }
 
 
@@ -51,7 +56,7 @@ p + p {
     line-height: auto;
     font-size: 16px;
     font-weight: regular;
-    text-align:left;
+    text-align: left;
 }
 
 subtitle {
@@ -68,4 +73,7 @@ descreption{
 
 footer{
     text-align: center;
+}
+.italic {
+    font-style: italic;
 }
